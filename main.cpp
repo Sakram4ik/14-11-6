@@ -32,8 +32,8 @@ int main(){
 	  }
   }
   cout << "for "<<line <<" line and "<<column <<" column biggest number = " << value << endl;
-	for (int i = 0; i < 4; ++i) {
-		for (int j = 0; j < 7; ++j) {
+	for (int i = 0; i < 4; i++) {
+		for (int j = 0; j < 7; j++) {
 			cout << arr[i][j] << ' ';
 		}//виведення двовимірного масиву
 		cout << endl;
